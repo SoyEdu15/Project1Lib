@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eventos JavaScript</title>
+</head>
+<body>
+
+<div id="myElement" style="width: 300px; height: 200px; background-color: rgb(230, 173, 229);">
+  Pasame por encima
+</div>
+
+<script>
+
+document.getElementById("myElement").addEventListener("mouseout", function() {
+    console.log("Se te quito la mano vuelve a colocarla.");
+});
+</script>
+
+</body>
+</html>
